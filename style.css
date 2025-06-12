@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #121212;
+  font-size: 18px;
+  color: white;
+}
+
+.circle {
+  background-color: #00bcd4;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.center-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.get-plus {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.input-bar {
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.input-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.input-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #aaa;
+  font-size: 18px;
+}
+
+.tool-icon {
+  font-size: 14px;
+}
